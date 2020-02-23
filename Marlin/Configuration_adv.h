@@ -1607,11 +1607,8 @@
 //
 // G2/G3 Arc Support
 //
-<<<<<<< HEAD
-//#define ARC_SUPPORT               // Disable this feature to save ~3226 bytes
-=======
+
 #define ARC_SUPPORT                 // Disable this feature to save ~3226 bytes
->>>>>>> 2b759b9e8d950179ae8bde5596946aeb00739724
 #if ENABLED(ARC_SUPPORT)
   #define MM_PER_ARC_SEGMENT      1 // (mm) Length (or minimum length) of each arc segment
   //#define ARC_SEGMENTS_PER_R    1 // Max segment length, MM_PER = Min

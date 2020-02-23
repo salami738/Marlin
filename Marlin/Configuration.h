@@ -415,14 +415,10 @@
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_5 0
-<<<<<<< HEAD
-#define TEMP_SENSOR_BED 1
-=======
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
 #define TEMP_SENSOR_BED 0
 #define TEMP_SENSOR_PROBE 0
->>>>>>> 2b759b9e8d950179ae8bde5596946aeb00739724
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -463,13 +459,9 @@
 #define HEATER_3_MAXTEMP 275
 #define HEATER_4_MAXTEMP 275
 #define HEATER_5_MAXTEMP 275
-<<<<<<< HEAD
-#define BED_MAXTEMP      125
-=======
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
-#define BED_MAXTEMP      150
->>>>>>> 2b759b9e8d950179ae8bde5596946aeb00739724
+#define BED_MAXTEMP      75
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -682,12 +674,9 @@
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
-<<<<<<< HEAD
 #define E0_DRIVER_TYPE TMC2209
-=======
 //#define Z4_DRIVER_TYPE A4988
 //#define E0_DRIVER_TYPE A4988
->>>>>>> 2b759b9e8d950179ae8bde5596946aeb00739724
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
