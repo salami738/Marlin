@@ -18,6 +18,6 @@ echo "Checksum"
 md5sum "$SOURCE_FILE" "$TARGET_FILE" 
 
 echo "Unmounting"
-umount /dev/sdb1
+umount /dev/mmcblk0p1
 
 echo "Finished"
